@@ -1,0 +1,115 @@
+.bg {
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-image: url(http://i.imgur.com/w16HASj.png);
+    background-size: 100% 100%;
+    background-position: top center
+}
+
+h3{
+	color:white;
+	padding-top: 250px;
+	font-family:Arial, FontAnsertwesome"
+}
+
+.content {
+    margin-top: 20%
+}
+
+.boxed{
+	margin-top:10px;
+	margin-bottom:10px;
+	padding: 7px;
+	border-style: solid !important;
+	border-width: 5px;
+}
+
+.right-border,.left-border,.bottom-border,.top-border{
+	border-color: blue;
+}
+.bottom-border{
+	border-bottom-style:double;
+	border-bottom-width:4px;
+}
+.top-border{
+	border-top-style:double;
+	border-top-width:4px;
+}
+.right-border{
+	border-right-style:double;
+	border-right-width:4px;
+}
+
+.left-border{
+	border-left-style:double;
+	border-left-width:4px;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 300px;
+    padding: 10px 20px
+}
+
+.InputStyle-button {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 100px;
+    padding: 10px 20px
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: white
+}
+
+
+i {
+    padding: 5px;
+    color: white
+}
+
+input,
+input:focus {
+    border: solid 1px white;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: nones;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.secondLine {
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 15%;
+    color: white
+}
+
+.firstLine {
+    font-size: 30px;
+    color: white
+}
+
+@media only screen and (max-width: 600px) {
+    .firstLine {
+        font-size: 20px
+    }
+}
+
+.container{
+	color:white;
+	text-align: left;
+}
